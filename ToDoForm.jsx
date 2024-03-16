@@ -25,8 +25,8 @@ function ToDoForm({addTask}) {
       <Button
         title="Add Task"
         onPress={() => {
-          setTaskText('');
           addTask(taskText);
+          setTaskText('');
         }}
       />
     </View>

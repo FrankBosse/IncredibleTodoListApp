@@ -5,12 +5,19 @@
  */
 
 import React from 'react';
-import { ScrollView, Pressable, View, Text, TextInput, Button } from 'react-native';
+import {
+  ScrollView,
+  Pressable,
+  View,
+  Text,
+  TextInput,
+  Button,
+} from 'react-native';
 
 // Import the styles from App.jsx
-import styles from './AppStyles';
+import styles from '../AppStyles';
 
-function ToDoList({ tasks }) {
+function ToDoList({tasks}) {
   return (
     <ScrollView>
       {tasks.map((task, index) => (

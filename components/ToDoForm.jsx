@@ -9,7 +9,7 @@ import {View, TextInput, Button} from 'react-native';
 import {useState} from 'react';
 
 // Import the styles from AppStyles.jsx
-import styles from './AppStyles';
+import styles from '../AppStyles';
 
 function ToDoForm({addTask}) {
   const [taskText, setTaskText] = React.useState('');
